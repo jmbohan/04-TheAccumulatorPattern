@@ -67,6 +67,11 @@ def run_test_sum_more_cosines():
     # Below this comment, add 2 more test cases of your own choosing.
     # ------------------------------------------------------------------
 
+    # Test 2:
+    expected = 0.02082  # This is APPROXIMATELY the correct answer.
+    answer = sum_more_cosines(-4, 3)
+    print('Test 1 expected:', expected, '(approximately)')
+    print('       actual:  ', answer)
 
 def sum_more_cosines(m, n):
     """
